@@ -1,0 +1,14 @@
+.siteTitle{
+    color: #88D5E5;
+    font-size: 30px ;
+    padding-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px ;
+    font-family: 'Tahoma', Segoe UI ;
+}
+.tagLine{
+    color: #FBF6F6;
+    font-size: 12px;
+    font-family: 'Tahoma', Segoe UI ;
+    margin-bottom: 30px;
+}

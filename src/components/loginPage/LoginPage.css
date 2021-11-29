@@ -1,0 +1,63 @@
+.createAcc{
+    text-decoration: none;
+    color: #88D5E5;
+    font-size: 16.5px;
+    font-family: 'Tahoma', Segoe UI ;
+}
+.notReg{
+    color: #FBF6F6;
+    font-size: 16.5px;
+    font-family: 'Tahoma', Segoe UI ;
+}
+.forgotPass{
+    color: #FBF6F6;
+    font-family: 'Tahoma', Segoe UI ;
+    position: relative;
+    left: -90px;
+    text-decoration: none;
+}
+.hrParent{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 28px;
+    color: #FBF6F6;
+    font-family: 'Tahoma', Segoe UI ;
+}
+.firstHr, .secondHr{
+    width: 100px;
+    height: 2px;
+    background-color:#FBF6F6;
+    /* border: 1px solid #FFFFFF; */
+}
+.firstHr{
+    margin-right: 39px;
+}
+.secondHr{
+    margin-left: 39px;
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-width : 1300px) {
+    .hrParent{
+        display: flex;
+        flex-direction: column;
+    }
+    .loginPage{
+   display:flex;
+   justify-content: space-around;
+}
+    .firstHr, .secondHr{
+        width: 2px;
+        height: 100px;
+    }
+    .firstHr{
+        position: relative;
+        left: 20px;
+    }
+    .secondHr{
+        position: relative;
+        left: -20px;
+    }
+}

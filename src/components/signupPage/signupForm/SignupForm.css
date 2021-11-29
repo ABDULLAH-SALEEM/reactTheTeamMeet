@@ -1,0 +1,52 @@
+.parentInput > .textEmail > input{
+    width: 330px;
+    height: 67px;
+    background-color: #000;
+    border: 2px solid #88D5E5;
+    border-radius: 27px;
+    font-size: 25px;
+    color: #FBF6F6;
+    outline: none;
+    margin-bottom: 15px;
+}
+.parentInput > .password > input{
+    width: 330px;
+    height: 67px;
+    background-color: #000;
+    border: 2px solid #88D5E5;
+    border-radius: 27px;
+    font-size: 25px;
+    color: #FBF6F6;
+    outline: none;
+    margin-bottom: 12px;
+}
+.signupButt{
+    width: 330px;
+    height: 65px;
+    border-radius: 27px;
+    font-size: 28px;
+    text-align: center;
+    color: #FBF6F6;
+    background-color: #8c8686b0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-width : 1300px) {
+    .parentInput > .textEmail > input, .parentInput > .password > input{
+        margin-right: 50px;   
+    }
+    .parentInput > .password > input{
+        margin-bottom: 5px;
+    }
+    .signupButt{
+        height: 55px;
+        width: 725px;
+        position: relative;
+        left: -26px;
+
+    }
+
+}
